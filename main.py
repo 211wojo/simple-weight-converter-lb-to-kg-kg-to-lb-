@@ -1,4 +1,4 @@
-weight = float(input("Wprowadz wage: "))
+weight = float(input("Your weight: "))
 unit = input("kg/lb?: ")
 
 
@@ -13,4 +13,5 @@ elif unit == "lb":
     result = weight / 2.2
 
 print(weight, typ, "to", round(result), typ2)
+
 
