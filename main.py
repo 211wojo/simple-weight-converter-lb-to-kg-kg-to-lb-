@@ -12,6 +12,7 @@ elif unit == "lb":
     typ2 = "kg"
     result = weight / 2.2
 
-print(weight, typ, "to", round(result), typ2)
+print(weight, typ, "is", round(result), typ2)
+
 
 
